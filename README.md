@@ -42,15 +42,17 @@ Proyecto capstone del Certificado de Analista de Datos. Evalúa el desempeño de
 │   ├── catalog_clean.csv
 │   └── marketing_clean.csv
 ├── images/
+│   ├── dashboard_overview.png
 │   ├── funnel_conversion.png
 │   ├── retencion_cohortes.png
 │   └── test_ab_checkout.png
-├── Proyecto_RappiPlus_de_datos_a_decisiones_de_negocio.xlsx   # Datos consolidados
-├── Proyecto_final_Sergio_santoyo.pbix                          # Dashboard interactivo (Power BI)
+├── S12_Estudiante_Proyecto_Final.ipynb                         # Notebook completo del análisis
+├── Proyecto_RappiPlus_de_datos_a_decisiones_de_negocio.xlsx    # Datos consolidados
+├── Proyecto_final_Sergio_santoyo.pbix                           # Dashboard interactivo (Power BI)
 └── README.md
 ```
 
-> Nota: el funnel de conversión, la retención por cohortes y el experimento A/B se calcularon originalmente con consultas SQL sobre una base de datos del curso (tablas `events`, `users`, `user_activity`, `experiment_checkout_ui`), no incluida en este repo. Los datasets de `data/` corresponden a la parte de rentabilidad y comportamiento de ventas (Pasos 1-2), que sí son completamente reproducibles con los archivos aquí incluidos.
+> ⚠️ Nota de seguridad: la celda de conexión SQL del notebook tenía originalmente una contraseña de la base de datos de práctica de TripleTen escrita en texto plano. Fue removida y reemplazada por variables de entorno antes de subir este repo — nunca subas credenciales reales a un repositorio público. Los pasos 3-5 (funnel, retención, experimento A/B) requieren acceso a esa base de datos para ejecutarse; los pasos 1-2 (calidad de datos y rentabilidad) son completamente reproducibles con los CSVs incluidos en `data/`.
 
 ## Contacto
 
